@@ -1,15 +1,17 @@
 """Program that outputs one of at least four random, good fortunes."""
 
-__author__ = "ENTER YOUR 9-DIGIT PID HERE"
-
-# The randint function is imported from the random library so that
-# you are able to generate integers at random.
-# 
-# Documentation: https://docs.python.org/3/library/random.html#random.randint
-#
-# For example, consider the function call expression: randint(1, 100)
-# It will evaluate to an int value >= 1 and <= 100. 
-from random import randint
+__author__ = "730384155"
 
 
-# Begin your solution here...
+
+how_much: int = int(input("Pick a number between 1-100: "))
+
+if how_much < 100:
+        print("You will get an A on your next test.")
+else: 
+    if how_much < 75:
+        print("You will fall in love soon")
+if how_much < 50:
+    print("Someone really misses you.")
+if how_much < 25:
+        print ("You will try a new food soon.")
